@@ -4,11 +4,16 @@ html {
 
 body {
     background-image: linear-gradient(to right, #6bd1b6, #29ccd0, #00c4eb, #1ab8fd, #73a6ff, #a899f7, #d28ae4, #f17cc6, #ff7ba9, #ff818d, #ff8d73, #fb9c5f);
+    height: calc(100vh - 164px);
+    max-width: 1500px;
+    margin:auto;
 }
 
-#water {
-    color:green;
+#logo {
+    width: 100%;
+    height: auto;
 }
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -66,6 +71,11 @@ body {
     left: 0;
     position: fixed;
     z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
 }
 
 /* -------------------------------- Media Queries */
